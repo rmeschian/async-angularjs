@@ -1,9 +1,3 @@
-/**
- * Created with IntelliJ IDEA.
- * User: Mateusz
- * Date: 14.11.12
- * Time: 18:58
- */
 
 "use strict";
 
