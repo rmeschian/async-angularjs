@@ -7,8 +7,7 @@ This project is an enhancement of Mateusz Bilski's https://github.com/matys84pl/
 
 ## Usage
 
-1. run 'npm install' to download needed node packages
-2. run 'npm start' to start the server, then go to localhost:3000
+Run 'npm start' to start the server, then go to localhost:3000 to see the sample application
 
 ## License
 
