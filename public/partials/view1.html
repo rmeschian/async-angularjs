@@ -1,0 +1,32 @@
+<div>
+
+    <h1>TODOS ( {{numDone()}} / {{todos.length}} )</h1>
+
+    <ul>
+        <li data-ng-repeat="todo in todos">
+            <label><input type="checkbox" data-ng-model="todo.done">
+            {{todo.text}}</label>
+        </li>
+    </ul>
+
+    <form name="myForm" data-ng-submit="add(newItem)">
+
+        <p>
+            <input type="text"
+                   data-ng-model="newItem.text"
+                   data-ng-maxlength="15"
+                   data-ng-required="true"
+                   name="newItem"
+                    />
+
+                <span data-ng-show="myForm.newItem.$error.required">
+                    Required field!
+                </span>
+
+                <span data-ng-show="myForm.newItem.$error.maxlength">
+                    Too long, use fewer characters!
+                </span>
+        </p>
+        <button type='submit' data-ng-disabled="myForm.$invalid" class="btn btn-primary btn-large">Add</button>
+    </form>
+</div>

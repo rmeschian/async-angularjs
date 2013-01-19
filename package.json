@@ -1,0 +1,20 @@
+{
+    "name"         : "async-angular",
+    "version"      : "0.0.1",
+    "private"      : false,
+    "author"       : {
+        "name" : "Rouben Meschian, Mateusz Bilski"
+    },
+    "licenses"     : [
+        {
+            "type" : "MIT"
+        }
+    ],
+    "scripts"      : {
+        "start" : "node app"
+    },
+    "dependencies" : {
+        "express" : "3.0.6",
+        "ejs"     : "*"
+    }
+}
